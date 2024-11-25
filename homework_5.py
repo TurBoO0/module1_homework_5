@@ -13,9 +13,7 @@ my_dict = {
     'red' : 'красный',
 }
 print(f'Dictionary: {my_dict}')
-change_value = my_dict.values()
 print(f'Translation: {my_dict['green']}')
 my_dict['blue'] = 'голубой'
-add_key = my_dict.keys()
 my_dict['black'] = 'черный'
 print(f'Modified dictionary: {my_dict}')
